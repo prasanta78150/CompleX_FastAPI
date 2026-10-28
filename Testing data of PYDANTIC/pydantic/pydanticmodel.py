@@ -1,7 +1,6 @@
 from pydantic import BaseModel  , EmailStr , AnyUrl , Field 
 from typing import Dict , List , Optional , Annotated 
 
-
 # type validation 
 # data validation
 ## Field = give meta data attachment and field validation 

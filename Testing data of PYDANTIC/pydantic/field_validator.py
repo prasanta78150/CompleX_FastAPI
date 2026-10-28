@@ -48,7 +48,6 @@ def insert_patinet_data(patinet : Patient):
     print(patinet.alergies)
 
 
-
 patinet_info = {"name":"Prasanta" , "age" : 25 ,"email":"abc@hdfc.com" ,"linkdin_url" : "https://www.linkedin.com" ,"weight" : -70.5 , "married" : False ,  "contact_details" : {"email" : "prasanta@example.com" , "number" : "123443443"}}
 
 patinet1 = Patient(**patinet_info)
